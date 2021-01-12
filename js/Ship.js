@@ -1,14 +1,14 @@
 function Ship() {
-    this.r = 0.03; //ray
-    this.rear_a = 50; //rear ray
+    this.r = 0.03; 
+    this.rear_a = 50; 
     this.a = 0; //angle
-    this.x = VAR.W / 2; // center horizontally
+    this.x = VAR.W / 2; // center horiztonally
     this.y = VAR.H / 2; // center vertically
     this.modX = 0; // modification X
     this.modY = 0; // modifucation Y
-    this.acc = 0.0004; // acceleration
+    this.acc = 0.0004;
     this.maxMod = 0.018;
-    this.points = [{},{},{}]; // points of ship
+    this.points = [{},{},{}]; 
 }
 
 Ship.prototype.hitTest = function() {
